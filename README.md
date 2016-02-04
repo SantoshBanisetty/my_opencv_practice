@@ -19,7 +19,7 @@ $ sudo make install
 
 Testing your installation:
 Open another terminal and type python and hit enter (You will see >>>)
->>> import cv2
+import cv2
 
 If no error occured, you are good to go. 
 
