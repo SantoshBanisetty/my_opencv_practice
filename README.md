@@ -8,18 +8,18 @@ $ sudo apt-get -y install libopencv-dev build-essential cmake libdc1394-22 libdc
 Download the latest version of OpenCV from 
 
 Unzip it to any location on your computer.
-$ cd opencv (Assuming that you unzipped to a directory called opencv)
+cd opencv (Assuming that you unzipped to a directory called opencv)
 
-$ mkdir release
-$ cd release
-$ sudo apt-get –y install cmake
-$ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_PYTHON_SUPPORT=ON -D WITH_XINE=ON -D WITH_OPENGL=ON -D WITH_TBB=ON -D WITH_EIGEN=ON -D BUILD_EXAMPLES=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON ../ 
-$ make –j4
-$ sudo make install
+mkdir release
+cd release
+sudo apt-get –y install cmake
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_PYTHON_SUPPORT=ON -D WITH_XINE=ON -D WITH_OPENGL=ON -D WITH_TBB=ON -D WITH_EIGEN=ON -D BUILD_EXAMPLES=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON ../ 
+make –j4
+sudo make install
 
 Testing your installation:
 Open another terminal and type python and hit enter (You will see >>>)
-import cv2
+>>>import cv2
 
 If no error occured, you are good to go. 
 
