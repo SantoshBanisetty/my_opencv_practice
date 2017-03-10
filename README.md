@@ -7,7 +7,7 @@ $ sudo apt-get -y install libopencv-dev build-essential cmake libdc1394-22 libdc
 
 Download the latest version of OpenCV from 
 
-Unzip it to any location on your computer.
+Unzip it to any location on your computer.<br />
 $cd opencv (Assuming that you unzipped to a directory called opencv)
 
 $mkdir release <br />
